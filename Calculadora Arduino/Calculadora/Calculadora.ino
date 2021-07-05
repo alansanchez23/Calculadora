@@ -15,6 +15,7 @@ long d=0;
 d = resta(a,b);
 
 Serial.println("El resultado de la operaciones es: "+c);
+  Serial.println("El resultado de la resta es: "+d);
 
 }
 
