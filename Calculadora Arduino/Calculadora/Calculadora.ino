@@ -1,9 +1,21 @@
+
+long suma(int,int);
+
 void setup() {
-  // put your setup code here, to run once:
+  Serial.println(9600);
 
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+int a = 10, b = 5;
+long c = 0;
+c = suma(a,b);
 
+Serial.println("El resultado de la operaciones es: "+c);
+
+}
+
+long suma(int a,int b){   ///Esta es la funcion de alan sanchez 
+long c = a+b; 
+return c;
 }
