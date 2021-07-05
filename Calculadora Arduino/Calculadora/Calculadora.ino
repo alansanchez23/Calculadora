@@ -15,7 +15,7 @@ Serial.println("El resultado de la operaciones es: "+c);
 
 }
 
-long suma(int a,int b){   ///Esta es la funcion de alan sanchez 
+long suma(int a,int b){   ///Esta es la funcion de alan sanchez suma
 long c = a+b; 
 return c;
 }
