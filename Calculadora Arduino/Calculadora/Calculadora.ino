@@ -10,12 +10,15 @@ void setup() {
 void loop() {
 int a = 10, b = 5;
 long c = 0;
-c = suma(a,b);
 long d=0;
+
+///Llamado de las funciones 
+c = suma(a,b);
 d = resta(a,b);
 
-Serial.println("El resultado de la operaciones es: "+c);
-  Serial.println("El resultado de la resta es: "+d);
+///Impresion de los resultados
+Serial.println("El resultado de la suma es: "+c);
+Serial.println("El resultado de la resta es: "+d);
 
 }
 
