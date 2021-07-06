@@ -44,7 +44,7 @@ long multi(int a,int b){  //Esta es la función de Jorge Cuevas MULTIPLICACIÓN
   return e;
 }
 
-long division(int a, int b){ //Esta es la función de Bautista División
+long division(int a,int b){ //Esta es la función de Bautista División
   long f = a/b;
   return f;
 }
